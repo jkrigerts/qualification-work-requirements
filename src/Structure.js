@@ -1,0 +1,268 @@
+import { Timeline, Text, Title, Anchor } from "@mantine/core";
+import {
+  IconLanguage,
+  IconList,
+  IconInfoSquareRounded,
+  IconSquareRoundedNumber1,
+  IconSquareRoundedNumber2,
+  IconSquareRoundedNumber3,
+  IconSquareRoundedNumber4,
+  IconSquareRoundedNumber5,
+  IconSquareRoundedNumber6,
+  IconSquareRoundedNumber7,
+  IconSquareRoundedNumber8,
+  IconAward,
+  IconBook,
+  IconLink,
+} from "@tabler/icons-react";
+
+function Structure() {
+  return (
+    <>
+      <Title order={1} align="center">
+        Kvalifikācijas eksāmena praktiskās daļās dokumentācijas saturs
+      </Title>
+      <Timeline active={13} bulletSize={38} lineWidth={3} mt="3rem" mb="3rem">
+        <Timeline.Item
+          bullet={<IconLanguage size={22} />}
+          title="Anotācija"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Anotācijai jābūt divās valodās - latviešu valodā un angļu valodā.
+            Anotācijā tiek atklāts: darba mērķis, darba daļas (nodaļas),
+            rezultātu kopsavilkums, tehniskais raksturojums - cik ir lappuses,
+            cik attēlu, cik tabulu, cik pielikumu, cik literatūras avoti
+            izmantoti?
+          </Text>
+          <Text size="xs" mt={4} color="dimmed">
+            2 lappuses
+          </Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconList size={22} />}
+          title="Satura rādītājs"
+          color="violet"
+        >
+          <Text color="" size="sm"></Text>
+          <Text size="xs" mt={4} color="dimmed">
+            1 - 2 lappuses
+          </Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconInfoSquareRounded size={26} />}
+          title="Ievads"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Ievads sākas ar tēmas aktualizāciju 3 rindkopu garumā. No
+            aktualizācijas izriet darba mērķis (tas pats, kurš jau minēts
+            anotācijā). No mērķa izriet darba uzdevumi.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed">
+            1 - 2 lappuses
+          </Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber1 size={26} />}
+          title="Literatūras apskats"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Literatūras apskats sniedz ieskatu par jomu, kurā darbs tiek
+            veidots. Piemēram, ja darbā tiek veidota jauna CMS sistēma, tad
+            jāapraksta, kas ir CMS, kādu problēmu CMS palīdz atrisināt, CMS
+            attīstības vēsture.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber2 size={26} />}
+          title="Variantu salīdzinājums"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Tam, kas tiek veidots, ir līdzinieki. Nepieciešams ir izvirzīt
+            prasības un aprakstīt tās. Pēc tam jānovērtē, cik labi šīs prasības
+            izpilda katrs no jau eksistējošajiem līdziniekiem. Tad jāsecina,
+            kāpēc tomēr veido savu sistēmu, kāpēc nepietiek ar to, kas jau
+            eksistē. Piemēram, CMS gadījumā eksistē jau{" "}
+            <Text fs="italic" component="span">
+              WordPress
+            </Text>
+            ,{" "}
+            <Text fs="italic" component="span">
+              Drupal
+            </Text>
+            ,{" "}
+            <Text fs="italic" component="span">
+              Joomla
+            </Text>
+            . Tos var salīdzināt pēc lietošanas ērtuma, ātrdarbības, maksas,
+            funkcionalitātes.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber3 size={26} />}
+          title="Sistēmas izstrādes prasības"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Sistēmas izstrādes prasībās ir divas apakšnodaļas: funkcionālās un
+            nefunkcionālās prasības.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed">
+            2 - 3 lappuses
+          </Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber4 size={26} />}
+          title="Tehnoloģiju izvēle un pamatojums"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Tehnoloģiju izvēlē ir jāapraksta, kas un kāpēc tiks izmantots.
+            Piemēram, HTML, CSS vai SCSS, ietvari (
+            <Text fs="italic" component="span">
+              frameworks
+            </Text>
+            ), programmēšanas valodas, datubāzes dzinējs u. c.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed">
+            ≥ 2 lappuses
+          </Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber5 size={26} />}
+          title="Priekšgalsistēmas struktūra un dizains"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Priekšgalsistēmas struktūra ir tas, kā notiek lietotāja
+            pārvietošanās sistēmā no viena atvēruma uz citu. Otra apakšnodaļa
+            apraksta, kādi dizaina risinājumi ir izvēlēti, domājot par UX un
+            reaģējošu (
+            <Text fs="italic" component="span">
+              responsive
+            </Text>
+            ) sistēmu.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber6 size={26} />}
+          title="Datu struktūra"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Datu struktūrā jāapraksta datu bāzes shēma, kas sevī ietveru
+            tabulas, tajās iekļautās kolonnas, to datu tipu, īsu aprakstu,
+            savstarpējās relācijas.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber7 size={26} />}
+          title="Testēšana"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Katrai iepriekš izvirzītajai prasībai nodaļā Sistēmas izstrādes
+            prasības jātiek testētai labākajā gadījumā ar automātiskiem testiem
+            vai vienkārši manuāli.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber8 size={26} />}
+          title="Lietotāja ceļvedis"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Kā cilvēks, kurš ar tehnoloģijām ir uz Jūs, var mijiedarboties ar
+            izstrādāto sistēmu? Lietotāja ceļvedim ir jābūt pēc iespējas
+            vienkāršam, tajā pat laikā detalizētam.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconAward size={22} />}
+          title="Secinājumi un priekšlikumi"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Pirmais secinājums ir par to, ka mērķis ticis sasniegts. Ikkatram
+            izvirzītajam uzdevumam ir jātiek pieminētam secinājumos. Jāiekļauj
+            arī vismaz divas rekomendācijas tālākai sistēmas attīstībai.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed">
+            1 lappuse
+          </Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconBook size={22} />}
+          title="Izmantotā literatūra"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Izmantotie literatūras avoti, noformēti un sakārtoti atbilstoši
+            prasībām. Darba tekstā jābūt vismaz vienai atsaucei uz ikkatru
+            literatūras avotu.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconLink size={22} />}
+          title="Pielikumi"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Pielikumos ir iekļaujams būtisks programmas koda fragments, garāks
+            veikto testu piemērs un cita informācija, kura ir darba būtiska
+            sastāvdaļa, tomēr bez kuras darbs ir pietiekošs. Pielikumam ir jābūt
+            numurētam, ar savu nosaukumu un darbā ir jābūt atsaucei uz ikkatru
+            pielikumu.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed">
+            Neietilpst lapušu skaitā
+          </Text>
+        </Timeline.Item>
+      </Timeline>
+      <Text>
+        <Anchor
+          href="https://sites.google.com/vplt.lv/helpdesk/audz%C4%93k%C5%86iem/noteikumi"
+          target="_blank"
+          size="sm"
+        >
+          VTDT noformēšanas nosacījumi
+        </Anchor>
+      </Text>
+
+      <Text>
+        <Anchor
+          href="https://skolo.lv/mod/folder/view.php?id=66139229"
+          target="_blank"
+          size="sm"
+        >
+          Citu izglītojamo kvalifikācijas darbi
+        </Anchor>
+      </Text>
+    </>
+  );
+}
+
+export default Structure;
