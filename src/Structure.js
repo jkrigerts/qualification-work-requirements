@@ -1,5 +1,6 @@
 import { Timeline, Text, Title, Anchor } from "@mantine/core";
 import {
+  IconNotebook,
   IconLanguage,
   IconList,
   IconInfoSquareRounded,
@@ -22,7 +23,17 @@ function Structure() {
       <Title order={1} align="center">
         Kvalifikācijas eksāmena praktiskās daļās dokumentācijas saturs
       </Title>
-      <Timeline active={13} bulletSize={38} lineWidth={3} mt="3rem" mb="3rem">
+      <Timeline active={14} bulletSize={38} lineWidth={3} mt="3rem" mb="3rem">
+        <Timeline.Item
+          bullet={<IconNotebook size={22} />}
+          title="Titullapa"
+          color="violet"
+        >
+          <Text color="" size="sm"></Text>
+          <Text size="xs" mt={4} color="dimmed">
+            1 lappuse
+          </Text>
+        </Timeline.Item>
         <Timeline.Item
           bullet={<IconLanguage size={22} />}
           title="Anotācija"
