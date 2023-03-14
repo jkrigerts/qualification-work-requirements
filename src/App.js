@@ -1,4 +1,6 @@
-import { MantineProvider, Text, Container } from "@mantine/core";
+import { MantineProvider, Container } from "@mantine/core";
+import { Notifications } from "@mantine/notifications";
+import Exam from "./Exam";
 import Demo from "./Structure";
 
 export default function App() {
@@ -19,9 +21,11 @@ export default function App() {
       withGlobalStyles
       withNormalizeCSS
     >
+      <Notifications autoClose={5000} />
       <Container mt="3rem" mb="3rem">
         <Demo />
       </Container>
+      <Exam></Exam>
     </MantineProvider>
   );
 }
