@@ -79,23 +79,14 @@ function Structure() {
 
         <Timeline.Item
           bullet={<IconSquareRoundedNumber1 size={26} />}
-          title="Literatūras apskats"
+          title="Literatūras apskats un variantu salīdzinājums"
           color="violet"
         >
           <Text color="" size="sm">
             Literatūras apskats sniedz ieskatu par jomu, kurā darbs tiek
             veidots. Piemēram, ja darbā tiek veidota jauna CMS sistēma, tad
-            jāapraksta, kas ir CMS, kādu problēmu CMS palīdz atrisināt, CMS
-            attīstības vēsture.
+            jāapraksta, kas ir CMS, kādu problēmu CMS palīdz atrisināt.
           </Text>
-          <Text size="xs" mt={4} color="dimmed"></Text>
-        </Timeline.Item>
-
-        <Timeline.Item
-          bullet={<IconSquareRoundedNumber2 size={26} />}
-          title="Variantu salīdzinājums"
-          color="violet"
-        >
           <Text color="" size="sm">
             Tam, kas tiek veidots, ir līdzinieki. Nepieciešams ir izvirzīt
             prasības un aprakstīt tās. Pēc tam jānovērtē, cik labi šīs prasības
@@ -120,13 +111,14 @@ function Structure() {
         </Timeline.Item>
 
         <Timeline.Item
-          bullet={<IconSquareRoundedNumber3 size={26} />}
-          title="Sistēmas izstrādes prasības"
+          bullet={<IconSquareRoundedNumber2 size={26} />}
+          title="Prasību specifikācija"
           color="violet"
         >
           <Text color="" size="sm">
-            Sistēmas izstrādes prasībās ir divas apakšnodaļas: funkcionālās un
-            nefunkcionālās prasības.
+            Prasību specifikācijā ir divas apakšnodaļas: funkcionālās un
+            nefunkcionālās prasības. Funkcionālās prasības sevī ietver arī
+            ieejas un izejas datu aprakstu.
           </Text>
           <Text size="xs" mt={4} color="dimmed">
             2 - 3 lappuses
@@ -134,13 +126,14 @@ function Structure() {
         </Timeline.Item>
 
         <Timeline.Item
-          bullet={<IconSquareRoundedNumber4 size={26} />}
-          title="Tehnoloģiju izvēle un pamatojums"
+          bullet={<IconSquareRoundedNumber3 size={26} />}
+          title="Mērķa sasniegšanas līdzekļu izvēle un pamatojums"
           color="violet"
         >
           <Text color="" size="sm">
-            Tehnoloģiju izvēlē ir jāapraksta, kas un kāpēc tiks izmantots.
-            Piemēram, HTML, CSS vai SCSS, ietvari (
+            Mērķa sasniegšanai ir nepieciešami līdzekļi, tehnoloģijas. Ir
+            jāapraksta, kas un kāpēc tiks izmantots. Piemēram, HTML, CSS vai
+            SCSS, ietvari (
             <Text fs="italic" component="span">
               frameworks
             </Text>
@@ -152,26 +145,32 @@ function Structure() {
         </Timeline.Item>
 
         <Timeline.Item
-          bullet={<IconSquareRoundedNumber5 size={26} />}
-          title="Priekšgalsistēmas struktūra un dizains"
+          bullet={<IconSquareRoundedNumber4 size={26} />}
+          title="Sistēmas struktūras modelis"
           color="violet"
         >
           <Text color="" size="sm">
-            Priekšgalsistēmas struktūra ir tas, kā notiek lietotāja
-            pārvietošanās sistēmā no viena atvēruma uz citu. Otra apakšnodaļa
-            apraksta, kādi dizaina risinājumi ir izvēlēti, domājot par UX un
-            reaģējošu (
-            <Text fs="italic" component="span">
-              responsive
-            </Text>
-            ) sistēmu.
+            Sistēmas struktūras modelis iekļauj sevī sistēmas uzbūves struktūru,
+            arhitektūru - algoritma shēmu ar izvēlētās risināšanas metodes
+            aprakstu, klašu diagrammu, ER modeli.
+          </Text>
+          <Text size="xs" mt={4} color="dimmed"></Text>
+        </Timeline.Item>
+
+        <Timeline.Item
+          bullet={<IconSquareRoundedNumber5 size={26} />}
+          title="Funkcionālais un dinamiskais sistēmas modelis"
+          color="violet"
+        >
+          <Text color="" size="sm">
+            Datu plūsmas diagrammas, stāvokļu diagramma, scenārijs.
           </Text>
           <Text size="xs" mt={4} color="dimmed"></Text>
         </Timeline.Item>
 
         <Timeline.Item
           bullet={<IconSquareRoundedNumber6 size={26} />}
-          title="Datu struktūra"
+          title="Datu struktūras apraksts"
           color="violet"
         >
           <Text color="" size="sm">
@@ -188,9 +187,12 @@ function Structure() {
           color="violet"
         >
           <Text color="" size="sm">
-            Katrai iepriekš izvirzītajai prasībai nodaļā Sistēmas izstrādes
-            prasības jātiek testētai labākajā gadījumā ar automātiskiem testiem
-            vai vienkārši manuāli.
+            Katrai iepriekš izvirzītajai prasībai nodaļā{" "}
+            <Text fs="italic" component="span">
+              Mērķa sasniegšanas līdzekļu izvēle un pamatojums
+            </Text>{" "}
+            jātiek testētai. Šajā nodaļā jāsniedz vismaz viens testa piemērs,
+            kurš abi demonstrē programmas produkta lietojamību.
           </Text>
           <Text size="xs" mt={4} color="dimmed"></Text>
         </Timeline.Item>
