@@ -10,7 +10,7 @@ export default function App() {
         fontSizes: {
           xs: "1rem",
           sm: "1.1rem",
-          md: "1.5rem",
+          md: "1.2rem",
           lg: "1.8rem",
           xl: "1.2rem",
         },

@@ -1,4 +1,4 @@
-import { Timeline, Text, Title, Anchor } from "@mantine/core";
+import { Timeline, Text, Title, Anchor, Code } from "@mantine/core";
 import {
   IconNotebook,
   IconLanguage,
@@ -16,6 +16,7 @@ import {
   IconBook,
   IconLink,
 } from "@tabler/icons-react";
+import TimelineEntry from "./TimelineEntry";
 
 function Structure() {
   return (
@@ -23,6 +24,14 @@ function Structure() {
       <Title order={1} align="center">
         Kvalifikācijas eksāmena praktiskās daļās dokumentācijas saturs
       </Title>
+      <Text size="md">
+        Ir sagaidāms, ka kvalifikācijas darba vērtēšana tiks veikta pēc tiem
+        pašiem vai līdzīgiem kritērijiem kā pagājušajā gadā, tāpēc{" "}
+        <Anchor href="PT-eksamena-vertesana-2022.pdf" target="_blank">
+          tie pieejami šeit
+        </Anchor>
+        .
+      </Text>
       <Timeline active={14} bulletSize={38} lineWidth={3} mt="3rem" mb="3rem">
         <Timeline.Item
           bullet={<IconNotebook size={22} />}
@@ -174,9 +183,11 @@ function Structure() {
           color="violet"
         >
           <Text color="" size="sm">
-            Datu struktūrā jāapraksta datu bāzes shēma, kas sevī ietveru
-            tabulas, tajās iekļautās kolonnas, to datu tipu, īsu aprakstu,
-            savstarpējās relācijas.
+            Iepriekšējo gadu piemēri ir kļūdaini! Datu struktūra nav saistīta ar
+            datu bāzes ER modeli. Šajā nodaļā ir jāapraksta, kādas un kāpēc datu
+            struktūras ir izmantotas pašā programmā: <Code>int</Code>,{" "}
+            <Code>float</Code>, <Code>string</Code>, <Code>array</Code>,{" "}
+            <Code>list</Code>, <Code>linked list</Code>, <Code>tree</Code> u.c.
           </Text>
           <Text size="xs" mt={4} color="dimmed"></Text>
         </Timeline.Item>
@@ -192,7 +203,7 @@ function Structure() {
               Mērķa sasniegšanas līdzekļu izvēle un pamatojums
             </Text>{" "}
             jātiek testētai. Šajā nodaļā jāsniedz vismaz viens testa piemērs,
-            kurš abi demonstrē programmas produkta lietojamību.
+            kurš labi demonstrē programmas produkta lietojamību.
           </Text>
           <Text size="xs" mt={4} color="dimmed"></Text>
         </Timeline.Item>
