@@ -1,31 +1,35 @@
-import { MantineProvider, Container } from "@mantine/core";
+import { Container, Anchor, Card, Title, Text, Group } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
+import { Book2, Presentation } from "tabler-icons-react";
 import Exam from "./Exam";
-import Demo from "./Structure";
 
 export default function App() {
   return (
-    <MantineProvider
-      theme={{
-        fontSizes: {
-          xs: "1rem",
-          sm: "1.1rem",
-          md: "1.2rem",
-          lg: "1.8rem",
-          xl: "1.2rem",
-        },
-        spacing: {
-          xl: "3rem",
-        },
-      }}
-      withGlobalStyles
-      withNormalizeCSS
-    >
+    <Container mt="3rem" mb="3rem">
+      <Title align="center">Programmēšanas tehniķis. Noslēgums</Title>
+      <Text align="center" mb="3rem">
+        Vieta, kur atrast visu, kā sekmīgi tikt pie programmēšanas tehniķa
+        profesijas.
+      </Text>
+      <Anchor href="dokumentacija">
+        <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
+          <Group>
+            <Book2 size={43} />
+            <Text weight={500}>Par kvalifikācijas darba dokumentāciju</Text>
+          </Group>
+        </Card>
+      </Anchor>
+
+      <Anchor href="prakses-aizstavesana">
+        <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
+          <Group>
+            <Presentation size={43} />
+            <Text weight={500}>Par ārējās prakses aizstāvēšanu</Text>
+          </Group>
+        </Card>
+      </Anchor>
       <Notifications autoClose={5000} />
-      <Container mt="3rem" mb="3rem">
-        <Demo />
-      </Container>
       <Exam></Exam>
-    </MantineProvider>
+    </Container>
   );
 }

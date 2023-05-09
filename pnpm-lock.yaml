@@ -11,7 +11,9 @@ specifiers:
   '@testing-library/user-event': ^13.5.0
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-router-dom: ^6.11.1
   react-scripts: 5.0.1
+  tabler-icons-react: ^1.56.0
   web-vitals: ^2.1.4
 
 dependencies:
@@ -25,7 +27,9 @@ dependencies:
   '@testing-library/user-event': 13.5.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-router-dom: 6.11.1_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_react@18.2.0
+  tabler-icons-react: 1.56.0_react@18.2.0
   web-vitals: 2.1.4
 
 packages:
@@ -2331,6 +2335,11 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       react: 18.2.0
+    dev: false
+
+  /@remix-run/router/1.6.1:
+    resolution: {integrity: sha512-YUkWj+xs0oOzBe74OgErsuR3wVn+efrFhXBWrit50kOiED+pvQe2r6MWY0iJMQU/mSVKxvNzL4ZaYvjdX+G7ZA==}
+    engines: {node: '>=14'}
     dev: false
 
   /@rollup/plugin-babel/5.3.1_4tnfxcmsyr7y5qv3uwkivwqysm:
@@ -8736,6 +8745,29 @@ packages:
       use-sidecar: 1.1.2_react@18.2.0
     dev: false
 
+  /react-router-dom/6.11.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-dPC2MhoPeTQ1YUOt5uIK376SMNWbwUxYRWk2ZmTT4fZfwlOvabF8uduRKKJIyfkCZvMgiF0GSCQckmkGGijIrg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.6.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router: 6.11.1_react@18.2.0
+    dev: false
+
+  /react-router/6.11.1_react@18.2.0:
+    resolution: {integrity: sha512-OZINSdjJ2WgvAi7hgNLazrEV8SGn6xrKA+MkJe9wVDMZ3zQ6fdJocUjpCUCI0cNrelWjcvon0S/QK/j0NzL3KA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.6.1
+      react: 18.2.0
+    dev: false
+
   /react-scripts/5.0.1_react@18.2.0:
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
     engines: {node: '>=14.0.0'}
@@ -9715,6 +9747,14 @@ packages:
 
   /tabbable/6.1.1:
     resolution: {integrity: sha512-4kl5w+nCB44EVRdO0g/UGoOp3vlwgycUVtkk/7DPyeLZUCuNFFKCFG6/t/DgHLrUPHjrZg6s5tNm+56Q2B0xyg==}
+    dev: false
+
+  /tabler-icons-react/1.56.0_react@18.2.0:
+    resolution: {integrity: sha512-FOme3w6PJIWDpeXqQ4xjArQqdxzrr9xNy7PSSgWpRzOUQ71RyZ7jt6WThsfyLBz5os78TPJRA8f/0NLjnKcx9A==}
+    peerDependencies:
+      react: '>= 16.8.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /tailwindcss/3.2.7:

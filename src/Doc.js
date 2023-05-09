@@ -1,4 +1,4 @@
-import { Timeline, Text, Title, Anchor, Code } from "@mantine/core";
+import { Container, Timeline, Text, Title, Anchor, Code } from "@mantine/core";
 import {
   IconNotebook,
   IconLanguage,
@@ -16,12 +16,11 @@ import {
   IconBook,
   IconLink,
 } from "@tabler/icons-react";
-import TimelineEntry from "./TimelineEntry";
 
-function Structure() {
+function Doc() {
   return (
-    <>
-      <Title order={1} align="center">
+    <Container mt="3rem" mb="3rem">
+      <Title order={1} align="center" mb="1rem">
         Kvalifikācijas eksāmena praktiskās daļās dokumentācijas saturs
       </Title>
       <Text size="md">
@@ -285,8 +284,8 @@ function Structure() {
           Citu izglītojamo kvalifikācijas darbi
         </Anchor>
       </Text>
-    </>
+    </Container>
   );
 }
 
-export default Structure;
+export default Doc;
