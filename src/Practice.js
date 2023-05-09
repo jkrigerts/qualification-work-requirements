@@ -31,7 +31,7 @@ function Practice() {
         Ārējās prakses prezentācijas saturs
       </Title>
       <List
-        spacing="xs"
+        spacing="md"
         center
         icon={
           <ThemeIcon color="teal" size={34} radius="xl">
@@ -61,7 +61,7 @@ function Practice() {
             </ThemeIcon>
           }
         >
-          Prezentācija jāiesnies <em>skolo.lv</em> kursa{" "}
+          Prezentācija jāiesniedz <em>skolo.lv</em> kursa{" "}
           <em>Programmēšanas tehniķa prakse</em>&nbsp; uzdevumā{" "}
           <Anchor
             href="https://skolo.lv/mod/assign/view.php?id=73368542"
