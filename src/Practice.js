@@ -41,7 +41,10 @@ function Practice() {
       >
         <List.Item>
           Prezentācijas noformējumam jābūt atbilstoši sagatavei:&nbsp;
-          <Anchor href="KVP-vārds_uzvārds-IP19.pptx">
+          <Anchor
+            target="_blank"
+            href="https://1drv.ms/p/s!Akkmflzgkd9WgcYf-Bz3BrySnfUNrw?e=jQMnGa"
+          >
             KVP-vārds_uzvārds-IP19.pptx
           </Anchor>
         </List.Item>
