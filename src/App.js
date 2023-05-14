@@ -1,6 +1,11 @@
 import { Container, Anchor, Card, Title, Text, Group } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
-import { Book2, Presentation } from "tabler-icons-react";
+import {
+  Book2,
+  Presentation,
+  ArrowDownCircle,
+  ListDetails,
+} from "tabler-icons-react";
 import Exam from "./Exam";
 
 export default function App() {
@@ -8,9 +13,24 @@ export default function App() {
     <Container mt="3rem" mb="3rem">
       <Title align="center">Programmēšanas tehniķis. Noslēgums</Title>
       <Text align="center" mb="3rem">
-        Vieta, kur atrast visu, kā sekmīgi tikt pie programmēšanas tehniķa
-        profesijas.
+        Programmēšanas tehniķa eksāmens jau <strong>22. jūnijā</strong>!
       </Text>
+      <Anchor href="IP19_kv_eks_progr_2023.pdf" target="_blank">
+        <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
+          <Group>
+            <ArrowDownCircle size={41} />
+            <Text weight={500}>Eksāmena programma</Text>
+          </Group>
+        </Card>
+      </Anchor>
+      <Anchor href="tests">
+        <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
+          <Group>
+            <ListDetails size={40} />
+            <Text weight={500}>Par testa daļu eksāmenā</Text>
+          </Group>
+        </Card>
+      </Anchor>
       <Anchor href="dokumentacija">
         <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
           <Group>

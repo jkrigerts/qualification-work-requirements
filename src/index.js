@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { MantineProvider } from "@mantine/core";
+import { AppShell, MantineProvider, Header } from "@mantine/core";
 import App from "./App";
 import Doc from "./Doc";
 import Practice from "./Practice";
+import Test from "./Test";
+import MyHeader from "./MyHeader";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "prakses-aizstavesana",
     element: <Practice />,
+  },
+  {
+    path: "tests",
+    element: <Test />,
   },
 ]);
 
@@ -40,7 +46,15 @@ root.render(
       withGlobalStyles
       withNormalizeCSS
     >
-      <RouterProvider router={router} />
+      <AppShell
+        header={
+          <Header height={52} p="xs">
+            <MyHeader></MyHeader>
+          </Header>
+        }
+      >
+        <RouterProvider router={router} />
+      </AppShell>
     </MantineProvider>
   </React.StrictMode>
 );
