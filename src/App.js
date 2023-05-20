@@ -1,4 +1,4 @@
-import { Container, Anchor, Card, Title, Text, Group } from "@mantine/core";
+import { AppShell, Container, Anchor, Card, Title, Text, Group } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
 import {
   Book2,

@@ -50,13 +50,15 @@ function Practice() {
           }
         >
           <List.Item>
-            Prezentācijas noformējumam jābūt atbilstoši sagatavei:&nbsp;
+            Prezentācijas noformējumam jābūt balstītam uz sagatavi&nbsp;
             <Anchor
               target="_blank"
               href="https://1drv.ms/p/s!Akkmflzgkd9WgcYf-Bz3BrySnfUNrw?e=jQMnGa"
             >
               KVP-vārds_uzvārds-IP19.pptx
             </Anchor>
+            , tomēr fonta izmēru, krāsu, un pašu fontu, protams, vari pielāgot
+            savām vēlmēm.
           </List.Item>
           <List.Item
             icon={
