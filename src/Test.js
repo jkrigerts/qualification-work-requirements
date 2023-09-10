@@ -26,23 +26,22 @@ const Test = () => {
           }
         >
           <List.Item>
-            Vari pildīt atkārtoti un redzēt atbildes tam testam, ko jau pildīji
-            7. decembrī:&nbsp;
-            <Anchor
-              target="_blank"
-              href="https://skolo.lv/mod/quiz/view.php?id=64979579"
-            >
-              saite uz skolo.lv
-            </Anchor>
+            Tiek sagaidīts, ka šajā mācību gadā būs izmaiņas eksāmenā, tomēr vēl
+            nav zināmas kādas. Iepriekš 1/3 daļu no eksāmena rezultāta noteica
+            testa rezultāti.
           </List.Item>
           <List.Item>
+            Novembra beigās Tevi sagaida izmēģinājuma eksāmens, kurā būs jāpilda
+            arī tests, tāpēc ir vērts gatavoties!
+          </List.Item>
+          <List.Item>
+            Vari pildīt 2020. gada eksāmena testu, kurš pieejams{" "}
             <Anchor
               target="_blank"
-              href="https://skolo.lv/mod/pdfannotator/view.php?id=66116216"
+              href="https://skolo.lv/mod/quiz/view.php?id=77326001"
             >
-              skolo.lv ir pieejams vēl viens tests
+              skolo.lv
             </Anchor>
-            ,&nbsp; bet tikai kā PDF un bez atbildēm.
           </List.Item>
           <List.Item>
             Un tad ir kaut kāds{" "}
