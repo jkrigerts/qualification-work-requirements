@@ -1,19 +1,6 @@
-import {
-  AppShell,
-  Container,
-  Anchor,
-  Card,
-  Title,
-  Text,
-  Group,
-} from "@mantine/core";
+import { Container, Anchor, Card, Title, Text, Group } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
-import {
-  Book2,
-  Presentation,
-  ArrowDownCircle,
-  ListDetails,
-} from "tabler-icons-react";
+import { Book2, ArrowDownCircle, ListDetails } from "tabler-icons-react";
 import Exam from "./Exam";
 
 export default function App() {
@@ -23,7 +10,7 @@ export default function App() {
       <Text align="center" mb="3rem">
         Programmēšanas tehniķa eksāmens jau <strong>2024. gada jūnijā</strong>!
       </Text>
-      <Anchor href="IP19_kv_eks_progr_2023.pdf" target="_blank">
+      <Anchor href="IP20_kv_eks_progr_2024.pdf" target="_blank">
         <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
           <Group>
             <ArrowDownCircle size={41} />
