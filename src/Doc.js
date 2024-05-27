@@ -63,6 +63,12 @@ function Doc() {
               cik attēlu, cik tabulu, cik pielikumu, cik literatūras avoti
               izmantoti?
             </Text>
+            <Text color="" size="sm">
+              <strong>
+                Anotācijā norādi saiti uz pašu projektu, kā arī saiti uz tā kodu{" "}
+                <em>GitHub</em>!
+              </strong>
+            </Text>
             <Text size="xs" mt={4} color="dimmed">
               2 lappuses
             </Text>
@@ -226,6 +232,12 @@ function Doc() {
               Kā cilvēks, kurš ar tehnoloģijām ir uz Jūs, var mijiedarboties ar
               izstrādāto sistēmu? Lietotāja ceļvedim ir jābūt pēc iespējas
               vienkāršam, tajā pat laikā detalizētam.
+            </Text>
+            <Text>
+              <strong>
+                Lietotāja ceļvedi sāc ar saiti uz pašu projektu, kā arī saiti uz
+                tā kodu <em>GitHub</em>!
+              </strong>
             </Text>
             <Text size="xs" mt={4} color="dimmed"></Text>
           </Timeline.Item>
