@@ -169,7 +169,7 @@ function Doc() {
 
           <Timeline.Item
             bullet={<IconSquareRoundedNumber4 size={26} />}
-            title="Sistēmas struktūras modelis"
+            title="Sistēmas un datu struktūras modelis"
             color="violet"
           >
             <Text color="" size="sm">
@@ -193,22 +193,6 @@ function Doc() {
 
           <Timeline.Item
             bullet={<IconSquareRoundedNumber6 size={26} />}
-            title="Datu struktūras apraksts"
-            color="violet"
-          >
-            <Text color="" size="sm">
-              Iepriekšējo gadu piemēri ir kļūdaini! Datu struktūra nav saistīta
-              ar datu bāzes ER modeli. Šajā nodaļā ir jāapraksta, kādas un kāpēc
-              datu struktūras ir izmantotas pašā programmā: <Code>int</Code>,{" "}
-              <Code>float</Code>, <Code>string</Code>, <Code>array</Code>,{" "}
-              <Code>list</Code>, <Code>linked list</Code>, <Code>tree</Code>{" "}
-              u.c.
-            </Text>
-            <Text size="xs" mt={4} color="dimmed"></Text>
-          </Timeline.Item>
-
-          <Timeline.Item
-            bullet={<IconSquareRoundedNumber7 size={26} />}
             title="Testēšana"
             color="violet"
           >
@@ -224,7 +208,7 @@ function Doc() {
           </Timeline.Item>
 
           <Timeline.Item
-            bullet={<IconSquareRoundedNumber8 size={26} />}
+            bullet={<IconSquareRoundedNumber7 size={26} />}
             title="Lietotāja ceļvedis"
             color="violet"
           >
