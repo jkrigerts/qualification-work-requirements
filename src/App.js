@@ -1,6 +1,11 @@
 import { Container, Anchor, Card, Title, Text, Group } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
-import { Book2, ArrowDownCircle, ListDetails } from "tabler-icons-react";
+import {
+  Book2,
+  ArrowDownCircle,
+  ListDetails,
+  BuildingEstate,
+} from "tabler-icons-react";
 import Exam from "./Exam";
 
 export default function App() {
@@ -31,6 +36,15 @@ export default function App() {
           <Group>
             <Book2 size={43} />
             <Text weight={500}>Par kvalifikācijas darba dokumentāciju</Text>
+          </Group>
+        </Card>
+      </Anchor>
+
+      <Anchor href="prakses-aizstavesana">
+        <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
+          <Group>
+            <BuildingEstate size={43} />
+            <Text weight={500}>Par ārējās prakses aizstāvēšanu</Text>
           </Group>
         </Card>
       </Anchor>

@@ -50,15 +50,7 @@ function Practice() {
           }
         >
           <List.Item>
-            Prezentācijas noformējumam jābūt balstītam uz sagatavi&nbsp;
-            <Anchor
-              target="_blank"
-              href="https://1drv.ms/p/s!Akkmflzgkd9WgcYf-Bz3BrySnfUNrw?e=jQMnGa"
-            >
-              KVP-vārds_uzvārds-IP19.pptx
-            </Anchor>
-            , tomēr fonta izmēru, krāsu, un pašu fontu, protams, vari pielāgot
-            savām vēlmēm.
+            Prezentācijas noformējumu vari veidot pēc savām vēlmēm un ieskatiem.
           </List.Item>
           <List.Item
             icon={
@@ -79,10 +71,10 @@ function Practice() {
             Prezentācija jāiesniedz <em>skolo.lv</em> kursa{" "}
             <em>Programmēšanas tehniķa prakse</em>&nbsp; uzdevumā{" "}
             <Anchor
-              href="https://skolo.lv/mod/assign/view.php?id=73368542"
+              href="https://skolo.lv/mod/assign/view.php?id=83488198"
               target="_blank"
             >
-              Kvalifikācijas prakses prezentācija.
+              Ārējās prakses prezentācija.
             </Anchor>
           </List.Item>
           <List.Item
