@@ -95,8 +95,9 @@ function Practice() {
             color="violet"
           >
             <Text color="" size="sm">
-              Titulslaida paraugs jau ir dots sagatavē. Ja biji 2 uzņēmumos,
-              piemini abus.
+              Titulslaida informatīvais (bet ne dizaina) paraugs ir pieejams{" "}
+              <Anchor href="KVP-vards_uzvards.pptx">te</Anchor>. Ja biji 2
+              uzņēmumos, piemini abus.
             </Text>
           </Timeline.Item>
 
