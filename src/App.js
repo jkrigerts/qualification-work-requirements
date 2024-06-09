@@ -5,6 +5,7 @@ import {
   ArrowDownCircle,
   ListDetails,
   BuildingEstate,
+  Presentation,
 } from "tabler-icons-react";
 import Exam from "./Exam";
 
@@ -45,6 +46,15 @@ export default function App() {
           <Group>
             <BuildingEstate size={43} />
             <Text weight={500}>Par ārējās prakses aizstāvēšanu</Text>
+          </Group>
+        </Card>
+      </Anchor>
+
+      <Anchor href="kvd-prezentacija">
+        <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
+          <Group>
+            <Presentation size={43} />
+            <Text weight={500}>Par kvalifikācijas darba prezentāciju</Text>
           </Group>
         </Card>
       </Anchor>

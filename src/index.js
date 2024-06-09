@@ -7,6 +7,7 @@ import Doc from "./Doc";
 import Practice from "./Practice";
 import Test from "./Test";
 import MyHeader from "./MyHeader";
+import Presentation from "./Presentation";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "tests",
     element: <Test />,
+  },
+  {
+    path: "kvd-prezentacija",
+    element: <Presentation />,
   },
 ]);
 
