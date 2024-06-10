@@ -157,19 +157,18 @@ function Presentation() {
               tad, nu, kaut kas par manuālo laikam...
             </Text>
           </Timeline.Item>
-          <Timeline.Item bullet="11" title="Lietotāja ceļvedis" color="violet">
-            <Text color="" size="sm">
-              Jā, tas ir izstrādāts un dokumentācijā dots. Nekas vairāk.
-            </Text>
-          </Timeline.Item>
-          <Timeline.Item bullet="12" title="Demonstrācija" color="violet">
+          <Timeline.Item
+            bullet="11"
+            title="Lietotāja ceļvedis - demonstrācija"
+            color="violet"
+          >
             <Text color="" size="sm">
               Prezentācijā ir saite uz projektu. To atver un aptuveni 1 min.
               laikā parāda pašu būtiskāko darbā.
             </Text>
           </Timeline.Item>
           <Timeline.Item
-            bullet="12"
+            bullet="11"
             title="Secinājumi un priekšlikumi"
             color="violet"
           >
@@ -179,7 +178,7 @@ function Presentation() {
             </Text>
           </Timeline.Item>
           <Timeline.Item
-            bullet="13"
+            bullet="12"
             title="Izmantotā literatūra"
             color="violet"
           >
