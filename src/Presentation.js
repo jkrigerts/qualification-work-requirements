@@ -94,7 +94,7 @@ function Presentation() {
           </Timeline.Item>
           <Timeline.Item bullet="3" title="Mērķis" color="violet">
             <Text color="" size="sm">
-              Nokopēts no dokumentācijas ievada
+              Nokopēts no dokumentācijas ievada.
             </Text>
           </Timeline.Item>
           <Timeline.Item bullet="4" title="Uzdevumi" color="violet">
@@ -139,7 +139,10 @@ function Presentation() {
             color="violet"
           >
             <Text color="" size="sm">
-              Viena skaista diagramma.
+              Viena skaista diagramma. Ja es būtu Tavā vietā, es netaisītu vnk
+              ekrānuzņēmumu no dokumentācijas, bet gan pacenstos, lai diagrammas
+              izskatās kā radītas tieši Tavai prezentācijai (sakrīt fona krāsa,
+              nav pikseļains attēls, ir pārskatāms).
             </Text>
           </Timeline.Item>
           <Timeline.Item
@@ -153,8 +156,7 @@ function Presentation() {
           </Timeline.Item>
           <Timeline.Item bullet="10" title="Testēšana" color="violet">
             <Text color="" size="sm">
-              Ja ir, tad automātiskās testēšanas apraksts un piemērs. Ja nav,
-              tad, nu, kaut kas par manuālo laikam...
+              Automātiskās testēšanas apraksts un piemērs.
             </Text>
           </Timeline.Item>
           <Timeline.Item
@@ -163,8 +165,10 @@ function Presentation() {
             color="violet"
           >
             <Text color="" size="sm">
-              Prezentācijā ir saite uz projektu. To atver un aptuveni 1 min.
-              laikā parāda pašu būtiskāko darbā.
+              Prezentācijā ir video, kā darbojies projektā. Tas ir vismaz 1 min
+              ilgs un atklāj visu izcilo Tavā darbā. Ja esi{" "}
+              <em>built different</em>, var arī doties pašā projektā un
+              demonstrēt prezentācijas laikā.
             </Text>
           </Timeline.Item>
           <Timeline.Item

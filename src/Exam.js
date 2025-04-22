@@ -5,7 +5,7 @@ import { notifications } from "@mantine/notifications";
 function Exam() {
   useEffect(() => {
     notifications.show({
-      title: "📆 Eksāmens jau 2025. gada maijā!",
+      title: "📆 Eksāmens jau 2025. gada 13. maijā!",
       message: "Hei! Jāsāk cītīgi gatavoties! 📚",
       styles: (theme) => ({
         root: {
