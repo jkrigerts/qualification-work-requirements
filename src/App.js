@@ -16,7 +16,7 @@ export default function App() {
       <Text align="center" mb="3rem">
         Programmēšanas tehniķa eksāmens jau <strong>2025. gada maijā</strong>!
       </Text>
-      <Anchor href="IP20_kv_eks_progr_2024.pdf" target="_blank">
+      <Anchor href="IP21_PKE_programma_2025.pdf" target="_blank">
         <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">
           <Group>
             <ArrowDownCircle size={41} />

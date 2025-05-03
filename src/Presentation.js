@@ -9,7 +9,7 @@ import {
   ThemeIcon,
   Timeline,
 } from "@mantine/core";
-import { IconConfetti } from "@tabler/icons-react";
+import { IconConfetti, IconList } from "@tabler/icons-react";
 import { IconPaint, Icon123, IconExternalLink } from "@tabler/icons-react";
 import { Clock } from "tabler-icons-react";
 
@@ -80,6 +80,16 @@ function Presentation() {
             <Text color="" size="sm">
               Titulslaida informatīvais (bet ne dizaina) paraugs ir pieejams{" "}
               <Anchor href="Pucitis_Ritvars_IP19-KVD.pptx">te</Anchor>.
+            </Text>
+          </Timeline.Item>
+
+          <Timeline.Item
+            bullet={<IconList size={26} />}
+            title="Satura rādītājs"
+            color="violet"
+          >
+            <Text color="" size="sm">
+              Prezentācijas satura rādītājs - ko uzzināsim šodien?
             </Text>
           </Timeline.Item>
 
