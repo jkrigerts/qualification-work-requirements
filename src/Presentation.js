@@ -79,7 +79,7 @@ function Presentation() {
           <Timeline.Item bullet="1" title="Titulslaids" color="violet">
             <Text color="" size="sm">
               Titulslaida informatīvais (bet ne dizaina) paraugs ir pieejams{" "}
-              <Anchor href="Pucitis_Ritvars_IP19-KVD.pptx">te</Anchor>.
+              <Anchor href="LRC-Presentation.pptx">te</Anchor>.
             </Text>
           </Timeline.Item>
 
