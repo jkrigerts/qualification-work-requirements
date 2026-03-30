@@ -14,7 +14,7 @@ export default function App() {
     <Container mt="3rem" mb="3rem">
       <Title align="center">Programmēšanas tehniķis. Noslēgums</Title>
       <Text align="center" mb="3rem">
-        Programmēšanas tehniķa eksāmens jau <strong>2025. gada maijā</strong>!
+        Programmēšanas tehniķa eksāmens jau <strong>2026. gada maijā</strong>!
       </Text>
       <Anchor href="IP21_PKE_programma_2025.pdf" target="_blank">
         <Card shadow="sm" padding="lg" radius="md" withBorder mb="3rem">

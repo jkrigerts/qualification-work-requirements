@@ -1,4 +1,4 @@
-import { Container, Timeline, Text, Title, Anchor, Code } from "@mantine/core";
+import { Card, Container, Timeline, Text, Title, Anchor, Code } from "@mantine/core";
 import { Helmet } from "react-helmet";
 import {
   IconNotebook,
@@ -32,14 +32,16 @@ function Doc() {
         <Title order={1} align="center" mb="1rem">
           Kvalifikācijas eksāmena praktiskās daļās dokumentācijas saturs
         </Title>
-        <Text size="md">
-          Ir sagaidāms, ka kvalifikācijas darba vērtēšana tiks veikta pēc tiem
-          pašiem vai līdzīgiem kritērijiem kā pagājušajā gadā, tāpēc{" "}
-          <Anchor href="PT-eksamena-vertesana-2022.pdf" target="_blank">
-            tie pieejami šeit
-          </Anchor>
-          .
-        </Text>
+        <Card shadow="sm" padding="lg" radius="md" withBorder>
+          <Text size="md">
+            ⚠️ VIAA precizējusi dokumentācijas prasības 2026. gada eksāmenam. Tās var atrast{" "}
+            <Anchor href="KVD-dokumentacijas-prasibas-2026.pdf" target="_blank">
+              šeit
+            </Anchor> ⚠️
+            .
+          </Text>
+        </Card>
+
         <Timeline active={14} bulletSize={38} lineWidth={3} mt="3rem" mb="3rem">
           <Timeline.Item
             bullet={<IconNotebook size={22} />}
