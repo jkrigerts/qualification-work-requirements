@@ -1,4 +1,4 @@
-import { Card, Container, Timeline, Text, Title, Anchor, Code } from "@mantine/core";
+import { Card, Container, Timeline, Text, Title, Anchor } from "@mantine/core";
 import { Helmet } from "react-helmet";
 import {
   IconNotebook,
@@ -12,7 +12,6 @@ import {
   IconSquareRoundedNumber5,
   IconSquareRoundedNumber6,
   IconSquareRoundedNumber7,
-  IconSquareRoundedNumber8,
   IconAward,
   IconBook,
   IconLink,
